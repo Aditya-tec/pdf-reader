@@ -2,7 +2,7 @@
 import PyPDF2
 import pyttsx3
 
-pdf_book = open('C:\\Users\\Aditya\\Desktop\\reader\\1.pdf', 'rb')
+pdf_book = open('name.pdf', 'rb')
 reading_pdf = PyPDF2.PdfReader(pdf_book)
 pdf_pages =    len(reading_pdf.pages)
 
